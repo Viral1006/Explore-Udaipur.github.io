@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  color: white;
+  background:#f1f1f1;
+}
+
+pre {
+  display: block;
+  font-family: "Arial", Times, serif;
+  font-size: 16px;
+  white-space: pre;
+  margin: 1em 0;
+}
+
+
+/* Header/Blog Title */
+.header {
+  padding: 40px;
+  font-size: 40px;
+  text-align: center;
+  background-image: url("F:\india-udaipur-皮丘拉-lake.jpg");
+  background-repeat: round;
+}
+
+h5{color:black;}
+
+h1{font-family: "arial black", Times, serif;}
+
+h2{font-family: "Cooper black", Times, serif; font-size: 30px}
+
+
+.opaque{opacity: 0.5;}
+
+/* Fake image */
+.img {
+  background-color: #aaa;
+  width: 400px;
+  padding: 20px;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: center;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+}
+
+.column {
+  float: justify;
+  width: 75%;
+  padding-left: 20px;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 200px;
+  color: black;
+  font-family: "georgia";
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p{
+font-family: "Times New Roman", Times, serif;
+letter-spacing: 1.5px;
+font-size: 16px;
+color:#000080
+}
+
+figcaption {
+  color: black;
+  font-style: italic;
+  padding: 2px;
+  text-align: inherit;
+}
+
+.pointer {cursor: pointer;}
+
+.box {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 20px;
+  border-radius: 40px;
+  color: black;
+  font-family: "georgia";
+}
+
+/* Footer */
+.footer {
+  padding: 5px;
+  text-align: center;
+  background: black;
+  margin-top: 20px;
+}
